@@ -125,6 +125,16 @@ section {
 .content h3 {
     color: #fff;
     font-size: 6rem;
+    color: #965a00;
+    text-shadow:
+        0 0 7px #ffffff,
+        0 0 10px #e0e1f1,
+        0 0 21px #beb6b6,
+        0 0 42px rgb(0, 0, 0),
+        0 0 82px rgb(0, 0, 0),
+        0 0 92px rgb(1, 1, 2),
+        0 0 102px rgb(0, 0, 0),
+        0 0 151px rgb(228, 228, 228);
 }
 
 .content p {
@@ -145,7 +155,7 @@ section {
     cursor: pointer;
     margin-top: 1rem;
     display: inline-block;
-    border-radius: 5px;
+    border-radius: 20px;
     border: 2px solid;
     box-shadow: 0 0 .2rem #080808,
         0 0 .2rem #000000,
@@ -170,7 +180,7 @@ section {
     text-align: center;
     border: var(--border);
     padding: 5rem;
-    border-radius: 5px;
+    border-radius: 20px;
 
 }
 
